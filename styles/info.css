@@ -20,7 +20,7 @@
   display: block;
   height: 1em;
   width: 100%;
-  background-color: rgba(214, 203, 227, 0.644);
+  background-color: #e6e6e6;
 }
 
 .accordion dd,
@@ -79,7 +79,7 @@
 
 .accordionTitleActive,
 .accordionTitle.is-expanded {
-  background-color: rgba(221, 198, 198, 0.699);
+  background-color: #e6e6e6;
   color: #252A2E;
 }
 
@@ -183,7 +183,7 @@ p {
   text-align: left;
 }
 
-h2 {
+h2, h6 {
   text-align: center;
 }
 

@@ -21,7 +21,7 @@ $back2:#252A2E;
          display:block;
          height:1em;
          width:100%;
-         background-color:darken(rgba(240, 236, 245, 0.644), 10%);
+         background-color:darken(white, 10%);
        }
   }
   .accordion dd,
@@ -68,7 +68,7 @@ $back2:#252A2E;
   }
   .accordionTitleActive, 
   .accordionTitle.is-expanded {
-     background-color:darken(rgba(240, 230, 230, 0.699), 10%);
+     background-color:darken(white, 10%);
      color:$back2;
       &:before {
        
@@ -130,7 +130,7 @@ $back2:#252A2E;
   p{
     text-align:left;
   }
-  h2{
+  h2,h6{
     text-align:center;
   }
   footer{
