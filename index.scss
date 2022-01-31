@@ -1,0 +1,32 @@
+
+$color1:#FFFFFF;
+$color2:white;
+$back1:#1E2326;
+$back2:#252A2E;
+
+
+body,html{
+    margin:0;
+    background-color: $back1;
+    color:white;
+    font-size:100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;    
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    width:100vw;
+    height:8vh;
+    text-align:center;
+    background-color: black;
+    p{
+        color:white;
+    }
+}
